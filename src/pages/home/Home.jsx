@@ -8,7 +8,8 @@ const Home = () => {
     console.log(context)
   
   return (
-   <Layout><h1>Home</h1>
+   <Layout>
+   <h1>Home</h1>
    </Layout>
   )
 }
