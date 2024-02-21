@@ -23,8 +23,8 @@ const deleteCart =()=>{
   return (
    <Layout>
    <div className='flex gap-5 justify-center p-5'>
-    <button className='bg-gray-300' onClick={()=>addCart()}>add</button>
-    <button className='bg-gray-300' onClick={()=>deleteCart()}>delete</button>
+    <button className='bg-gray-300' onClick={()=>addCart()}></button>
+    <button className='bg-gray-300' onClick={()=>deleteCart()}></button>
    </div>
    <HeroSection/>
    <Filter/>
