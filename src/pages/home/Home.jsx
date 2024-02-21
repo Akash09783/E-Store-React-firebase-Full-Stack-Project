@@ -5,6 +5,8 @@ import MyContext from '../../context/data/MyContext'
 import HeroSection from '../../components/herosection/HeroSection'
 import Filter from '../../components/filter/Filter'
 import ProductCard from '../../components/productcard/ProductCard'
+import Track from '../../components/track/Track'
+import Testimonial from '../../components/testimonials/Testimonial'
 
 const Home = () => {
     const context = useContext(MyContext)
@@ -15,6 +17,8 @@ const Home = () => {
    <HeroSection/>
    <Filter/>
    <ProductCard/>
+<Track/>
+<Testimonial/>
    </Layout>
   )
 }
