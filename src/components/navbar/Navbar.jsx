@@ -5,7 +5,7 @@ import { BsFillCloudSunFill } from 'react-icons/bs'
 import { FiSun } from 'react-icons/fi'
 import MyContext from '../../context/data/MyContext'
 import { RxCross2 } from 'react-icons/rx'
-
+// navbar
 export default function Navbar() {
   const [open, setOpen] = useState(false)
 
